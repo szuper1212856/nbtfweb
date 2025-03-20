@@ -1,41 +1,71 @@
 <!DOCTYPE html>
-<html lang="hu">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NBTF Control App</title>
+    <title>BalazsAlert-System</title>
     <style>
         body {
             background-color: black;
             color: white;
             font-family: Arial, sans-serif;
             text-align: center;
+            margin: 0;
+            padding: 0;
         }
         .container {
-            max-width: 800px;
-            margin: 50px auto;
             padding: 20px;
-            background-color: #222;
-            border-radius: 10px;
+        }
+        h1 {
+            color: cyan;
         }
         .button {
             display: inline-block;
-            padding: 15px 30px;
-            margin-top: 20px;
+            padding: 15px 25px;
+            margin: 10px;
             font-size: 18px;
             color: white;
-            background-color: cyan;
+            background-color: blue;
             text-decoration: none;
-            border-radius: 5px;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+        .button:hover {
+            background-color: darkblue;
+        }
+        .info-box {
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            margin: 20px auto;
+            width: 80%;
+            border-radius: 10px;
+        }
+        .discord-link {
+            color: cyan;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .discord-link:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>NBTF Control App</h1>
-        <p><strong>Figyelem:</strong> Az app jelenleg <span style="color: cyan;">csak iOS készülékeken</span> érhető el.</p>
-        <p>A tesztelőink jelenleg tesztelik az alkalmazást.</p>
-        <a href="https://melonly.xyz/forms/7308184634196496384" class="button">Csatlakozz a Béta Tesztelőkhöz</a>
+        <h1>Welcome to BalazsAlert-System</h1>
+        <p>The ultimate security control system for personal and advanced protection.</p>
+        
+        <div class="info-box">
+            <h2>Why Download This App?</h2>
+            <p>🔹 Full lockdown and security control at your fingertips.</p>
+            <p>🔹 AI-powered monitoring with live alerts.</p>
+            <p>🔹 Personal security features, including emergency buttons.</p>
+            <p>🔹 Multi-level access control with face recognition.</p>
+            <p>🔹 Advanced NBTF Control Panel for total security.</p>
+        </div>
+
+        <a class="button" href="https://szuper1212856.github.io/Nbtfbetatester/">Join Beta Testers</a>
+        <a class="button" href="https://discord.gg/TqyeuSjA">Need Help? Join Discord</a>
     </div>
 </body>
 </html>
